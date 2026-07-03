@@ -1,0 +1,22 @@
+Copyright (c) 2026 Matthias
+Alle Rechte vorbehalten.
+
+„Meine Filmsammlung" ist eine private, kostenlose Software. Der Quellcode
+ist nicht Bestandteil dieser Weitergabe – enthalten ist ausschließlich die
+fertig kompilierte, installierbare Anwendung.
+
+Erlaubt ist:
+- Der Download und die Installation der Software für den privaten,
+  nicht-kommerziellen Gebrauch.
+
+Nicht erlaubt ist, ohne ausdrückliche schriftliche Zustimmung des Autors:
+- Die kommerzielle Nutzung, der Verkauf oder Weiterverkauf der Software
+- Die Weiterverbreitung über andere Kanäle als die vom Autor bereitgestellten
+- Der Versuch, die Software zurückzuentwickeln (Reverse Engineering), zu
+  dekompilieren oder zu verändern
+- Die Veröffentlichung unter eigenem Namen oder als eigenes Werk
+
+DIE SOFTWARE WIRD OHNE JEGLICHE GEWÄHR BEREITGESTELLT. ES BESTEHT KEIN
+ANSPRUCH AUF FEHLERFREIHEIT, VERFÜGBARKEIT ODER SUPPORT. DER AUTOR HAFTET
+– SOWEIT GESETZLICH ZULÄSSIG – NICHT FÜR SCHÄDEN ODER DATENVERLUSTE, DIE
+AUS DER NUTZUNG DER SOFTWARE ENTSTEHEN.
