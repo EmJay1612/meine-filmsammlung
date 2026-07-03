@@ -9,7 +9,7 @@ plus Wunschliste. Für Windows.
 ## Download
 
 Die aktuelle Version findest du unter **[Releases](../../releases)** – lade
-die neueste `Meine Filmsammlung Setup X.X.X.exe` herunter und führe sie aus.
+die neueste `Meine-Filmsammlung-Setup-X.X.X.exe` herunter und führe sie aus.
 
 ## Installation
 
