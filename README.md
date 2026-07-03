@@ -37,6 +37,32 @@ Beim ersten Start zeigt die App eine kurze Einführung mit den wichtigsten
 Schritten – jederzeit wieder aufrufbar über ⚙ Einstellungen → "Anleitung
 erneut anzeigen".
 
+## Screenshots
+
+**Sammlungsansicht**
+![Sammlungsansicht](screenshots/sammlung.png)
+
+**Regal-Ansicht** – gruppiert Filmreihen automatisch, zeigt Vollständigkeits-Badges
+![Regal-Ansicht](screenshots/regal.png)
+
+**Detailansicht** eines Films
+![Detailansicht](screenshots/detail.png)
+
+**Wunschliste**
+![Wunschliste](screenshots/wunschliste.png)
+
+**Einstellungen & Design-Themes**
+![Einstellungen](screenshots/einstellungen.png)
+
+**Statistiken**
+![Statistiken](screenshots/statistiken.png)
+
+**Neuigkeiten** – Trending & bald im Kino, direkt aus TMDb
+![Neuigkeiten](screenshots/neuigkeiten.png)
+
+**Willkommens-Dialog** beim ersten Start
+![Willkommens-Dialog](screenshots/willkommen.png)
+
 ## Sicherheit & Datenschutz
 
 **Ist das ein Virus?** Nein. Die App ist lediglich nicht mit einem teuren
