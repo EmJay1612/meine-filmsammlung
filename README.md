@@ -39,6 +39,9 @@ erneut anzeigen".
 
 ## Screenshots
 
+**Willkommens-Dialog** beim ersten Start
+![Willkommens-Dialog](screenshots/willkommen.png)
+
 **Sammlungsansicht**
 ![Sammlungsansicht](screenshots/sammlung.png)
 
@@ -59,9 +62,6 @@ erneut anzeigen".
 
 **Neuigkeiten** – Trending & bald im Kino, direkt aus TMDb
 ![Neuigkeiten](screenshots/neuigkeiten.png)
-
-**Willkommens-Dialog** beim ersten Start
-![Willkommens-Dialog](screenshots/willkommen.png)
 
 ## Sicherheit & Datenschutz
 
