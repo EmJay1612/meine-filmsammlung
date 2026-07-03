@@ -37,12 +37,23 @@ Beim ersten Start zeigt die App eine kurze Einführung mit den wichtigsten
 Schritten – jederzeit wieder aufrufbar über ⚙ Einstellungen → "Anleitung
 erneut anzeigen".
 
-## Deine Daten
+## Sicherheit & Datenschutz
 
-Alle Daten (Filmsammlung, Wunschliste, Einstellungen) werden ausschließlich
-lokal auf deinem Computer gespeichert, unter
-`%APPDATA%\meine-filmsammlung\`. Es gibt keine automatische Cloud-Sicherung –
-nutze regelmäßig die Export-Funktion für ein Backup.
+**Ist das ein Virus?** Nein. Die App ist lediglich nicht mit einem teuren
+Code-Signing-Zertifikat signiert (das kostet jährlich mehrere hundert Euro,
+für ein kostenloses Hobbyprojekt nicht verhältnismäßig) – daher die
+"Unbekannter Herausgeber"-Warnung von Windows. Zur Kontrolle wurde die
+Installer-Datei mit [VirusTotal](https://www.virustotal.com/) geprüft
+(scannt mit ~70 Antiviren-Engines gleichzeitig): **[Scan-Ergebnis ansehen](https://www.virustotal.com/gui/file/e80fba9d95e4010cf73a12498dc630733a5ec7b2d242cd2503ecd3121666f3ad/detection)**.
+
+**Welche Daten verlässt dein Gerät?** Nur Anfragen an die TMDb-API (Filmsuche,
+Cover, Trailer-Links) – und nur, wenn du selbst einen API-Key hinterlegt hast.
+Es gibt keine Telemetrie, kein Tracking, keine sonstige Internetverbindung.
+
+**Wo liegen deine Daten?** Alle Daten (Filmsammlung, Wunschliste,
+Einstellungen) werden ausschließlich lokal auf deinem Computer gespeichert,
+unter `%APPDATA%\meine-filmsammlung\`. Es gibt keine automatische
+Cloud-Sicherung – nutze regelmäßig die Export-Funktion für ein Backup.
 
 ## Updates
 
