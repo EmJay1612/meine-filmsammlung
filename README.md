@@ -76,6 +76,26 @@ Installer-Datei mit [VirusTotal](https://www.virustotal.com/) geprüft
 Cover, Trailer-Links) – und nur, wenn du selbst einen API-Key hinterlegt hast.
 Es gibt keine Telemetrie, kein Tracking, keine sonstige Internetverbindung.
 
+**Wurde die Datei seit der Veröffentlichung verändert?** Nein – das lässt sich
+über den SHA256-Prüfwert (Hash) unabhängig nachprüfen. Jede GitHub-Release-Datei
+hat einen eindeutigen, kryptografischen "Fingerabdruck"; ändert sich auch nur
+ein einziges Byte, ändert sich der komplette Hash.
+
+Für `Meine-Filmsammlung-Setup-1.0.0.exe`:
+```
+SHA256: e80fba9d95e4010cf73a12498dc630733a5ec7b2d242cd2503ecd3121666f3ad
+```
+
+So kannst du selbst nachprüfen (PowerShell, nach dem Download im entsprechenden
+Ordner ausführen):
+```powershell
+Get-FileHash "Meine-Filmsammlung-Setup-1.0.0.exe" -Algorithm SHA256
+```
+Der ausgegebene Wert muss exakt mit dem oben genannten übereinstimmen. Dieser
+Hash ist zusätzlich identisch mit dem, den der [VirusTotal-Scan](https://www.virustotal.com/gui/file/e80fba9d95e4010cf73a12498dc630733a5ec7b2d242cd2503ecd3121666f3ad/detection)
+oben für die geprüfte Datei anzeigt – ein Beleg, dass es sich exakt um die
+von VirusTotal geprüfte Datei handelt, unverändert seit der Veröffentlichung.
+
 **Wo liegen deine Daten?** Alle Daten (Filmsammlung, Wunschliste,
 Einstellungen) werden ausschließlich lokal auf deinem Computer gespeichert,
 unter `%APPDATA%\meine-filmsammlung\`. Es gibt keine automatische
