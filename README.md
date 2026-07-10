@@ -45,6 +45,9 @@ erneut anzeigen".
 **Sammlungsansicht**
 ![Sammlungsansicht](screenshots/sammlung.png)
 
+**Massenimport** – mehrere Titel auf einmal einfügen, die App gleicht sie automatisch mit TMDb ab
+![Massenimport](screenshots/massenimport.png)
+
 **Regal-Ansicht** – gruppiert Filmreihen automatisch, zeigt Vollständigkeits-Badges
 ![Regal-Ansicht](screenshots/regal.png)
 
