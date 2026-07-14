@@ -79,7 +79,7 @@ Code-Signing-Zertifikat signiert (das kostet jährlich mehrere hundert Euro,
 für ein kostenloses Hobbyprojekt nicht verhältnismäßig) – daher die
 "Unbekannter Herausgeber"-Warnung von Windows. Zur Kontrolle wurde die
 Installer-Datei mit [VirusTotal](https://www.virustotal.com/) geprüft
-(scannt mit ~70 Antiviren-Engines gleichzeitig, 0 Erkennungen): **[Scan-Ergebnis ansehen](https://www.virustotal.com/gui/file/d1c381e917cbc70d62c9f8d4f352b5b95d234e7509d2adc439be5774e9d40310/detection)**.
+(scannt mit ~70 Antiviren-Engines gleichzeitig, 0 Erkennungen): **[Scan-Ergebnis ansehen](https://www.virustotal.com/gui/file/9ed2c42b80ffbe65eecb4c703e7c58cd172acae281fafe5150938f5085cfaaa1/detection)**.
 
 **Welche Daten verlässt dein Gerät?** Nur Anfragen an die TMDb-API (Filmsuche,
 Cover, Trailer-Links) – und nur, wenn du selbst einen API-Key hinterlegt hast.
@@ -90,18 +90,18 @@ Es gibt keine Telemetrie, kein Tracking, keine sonstige Internetverbindung.
 hat einen eindeutigen, kryptografischen "Fingerabdruck"; ändert sich auch nur
 ein einziges Byte, ändert sich der komplette Hash.
 
-Für `Meine-Filmsammlung-Setup-1.1.0.exe`:
+Für `Meine-Filmsammlung-Setup-1.1.1.exe`:
 ```
-SHA256: d1c381e917cbc70d62c9f8d4f352b5b95d234e7509d2adc439be5774e9d40310
+SHA256: 9ed2c42b80ffbe65eecb4c703e7c58cd172acae281fafe5150938f5085cfaaa1
 ```
 
 So kannst du selbst nachprüfen (PowerShell, nach dem Download im entsprechenden
 Ordner ausführen):
 ```powershell
-Get-FileHash "Meine-Filmsammlung-Setup-1.1.0.exe" -Algorithm SHA256
+Get-FileHash "Meine-Filmsammlung-Setup-1.1.1.exe" -Algorithm SHA256
 ```
 Der ausgegebene Wert muss exakt mit dem oben genannten übereinstimmen. Dieser
-Hash ist zusätzlich identisch mit dem, den der [VirusTotal-Scan](https://www.virustotal.com/gui/file/d1c381e917cbc70d62c9f8d4f352b5b95d234e7509d2adc439be5774e9d40310/detection)
+Hash ist zusätzlich identisch mit dem, den der [VirusTotal-Scan](https://www.virustotal.com/gui/file/9ed2c42b80ffbe65eecb4c703e7c58cd172acae281fafe5150938f5085cfaaa1/detection)
 oben für die geprüfte Datei anzeigt – ein Beleg, dass es sich exakt um die
 von VirusTotal geprüfte Datei handelt, unverändert seit der Veröffentlichung.
 
