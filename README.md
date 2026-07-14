@@ -3,6 +3,9 @@
 Eine private Desktop-App zur Verwaltung einer Blu-ray / 4K UHD / DVD-Sammlung,
 plus Wunschliste. Für Windows.
 
+> This product uses the TMDB API but is not endorsed or certified by TMDB.
+> *(Diese Anwendung nutzt die TMDB-API, wird jedoch von TMDB weder empfohlen noch zertifiziert.)*
+
 > Dieses Repository enthält keinen Quellcode – hier gibt es nur die fertige,
 > installierbare Anwendung zum Download (siehe [Releases](../../releases)).
 
@@ -38,6 +41,9 @@ Schritten – jederzeit wieder aufrufbar über ⚙ Einstellungen → "Anleitung
 erneut anzeigen".
 
 ## Screenshots
+
+*Cover in den Screenshots sind absichtlich weichgezeichnet – der Fokus liegt auf der
+App selbst, nicht auf urheberrechtlich geschütztem Cover-Material.*
 
 **Willkommens-Dialog** beim ersten Start
 ![Willkommens-Dialog](screenshots/willkommen.png)
